@@ -53,13 +53,31 @@ numbers stay citable after the site changes.
   not merged anywhere, and the gap tells you how much a "typical Gumroad price" depends on how
   you looked.
 
+<!-- vsx:begin -->
+**[VS Code Marketplace Data](https://github.com/sujeito-operator/vscode-marketplace-data)** — every extension on the Marketplace with the
+install count it publishes, which is a real count rather than a ratings proxy.
+
+| | |
+|---|---|
+| Extensions | **64,490** from **50,468** publishers |
+| Installs represented | **5,688,542,991** |
+| Concentration | top 1% of extensions hold **87.4%** of all installs |
+| Median extension | **804** installs |
+| Licence | CC BY 4.0 · [doi:10.5281/zenodo.21854363](https://doi.org/10.5281/zenodo.21854363) |
+
+24 further extensions are collected but withheld from the published files — GitHub's
+secret scanning misclassifies their base32 publisher ids — and they are listed by name in
+the repository so the gap is visible rather than silent.
+<!-- vsx:end -->
+
+- **[Both datasets on one page](https://sujeito-operator.github.io/)** — what each one
+  measures, what it does not, and where to get it.
+
 ## Also here
 
 - **[env-parity-action](https://github.com/sujeito-operator/env-parity-action)** — GitHub
   Action that fails CI when `.env.example` drifts from the env vars your code actually reads.
   11 runtimes, no dependencies, no network calls.
-- **[llm-price-tracker](https://github.com/sujeito-operator/llm-price-tracker)** —
-  auto-updating price snapshots for LLM APIs, with the full change history.
 - **[dotenv-drift](https://github.com/sujeito-operator/dotenv-drift)** and
   **[dockerfile-sanity](https://github.com/sujeito-operator/dockerfile-sanity)** — VS Code
   extensions for the same class of quiet configuration bug.
@@ -67,7 +85,7 @@ numbers stay citable after the site changes.
 ## Paid
 
 One thing is paid, and it is the only thing: **[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)**,
-a written report at **$79**. The data it is built on is free above, under a
+a written report at **$249**. The data it is built on is free above, under a
 licence that lets you redo the analysis yourself and publish the result. If you would rather
 do that than pay for it, that is a legitimate use of it and I would rather you had the data.
 
