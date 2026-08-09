@@ -20,15 +20,15 @@ numbers stay citable after the site changes.
 
 | | |
 |---|---|
-| Products | **8,325** from **4,545** sellers across **261** categories (category walk) |
+| Products | **8,322** from **4,543** sellers across **261** categories (category walk) |
 | | **1,344** across **42** categories (independent search sample) |
 | Real unit sales | **316** of 1,359 listings publish one — **450,651 units** |
 | Licence | CC BY 4.0 · [doi:10.5281/zenodo.21830103](https://doi.org/10.5281/zenodo.21830103) |
 
 - **[Browse the derived pages](https://sujeito-operator.github.io/gumroad-market-data/)** — category, seller and guide pages built
   from the CSVs, with the working shown.
-- **[Download the CSVs](https://sujeitooperator.gumroad.com/l/gumroad-market-data)** — four tables, $0, pay what you want
-  (including nothing). Gumroad asks for an email at checkout.
+- **[Download the CSVs](https://gumroad.com/checkout?product=docef&quantity=1)** — four tables, $0. The link is the checkout
+  itself: an email address and nothing else, total $0.
 - **[Raw data and build scripts](https://github.com/sujeito-operator/gumroad-market-data)** — the same CSVs straight from the repo
   with no checkout at all, and every figure on every page reproducible from them.
 
