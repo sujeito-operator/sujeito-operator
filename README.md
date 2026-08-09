@@ -32,7 +32,7 @@ numbers stay citable after the site changes.
 - **[Raw data and build scripts](https://github.com/sujeito-operator/gumroad-market-data)** — the same CSVs straight from the repo
   with no checkout at all, and every figure on every page reproducible from them.
 
-### Four things in there that I did not expect
+### Five things in there that I did not expect
 
 - **There is no fixed sales-per-rating multiplier**, and sellers who quote one are guessing.
   Paid listings: median **×25.5**, but the middle half spans
@@ -52,7 +52,7 @@ numbers stay citable after the site changes.
   **$36.99** in the search sample against **$18.03** in the category walk. They are
   not merged anywhere, and the gap tells you how much a "typical Gumroad price" depends on how
   you looked.
-
+- **A UK buyer is charged more than the product page says, on 28 of the 32 stores I could read.** Median **+21.2%**, range +16.6%–+27.9%. It is Gumroad's VAT as merchant of record, not a seller's mistake — it applies to my own product too, at +21.0% — and it is invisible from inside a seller's account, because logged in you see your own catalogue in your own currency from your own country. [The sample, the method and every reading](https://sujeito-operator.github.io/gumroad-market-data/checkout.html).
 <!-- vsx:begin -->
 **[VS Code Marketplace Data](https://github.com/sujeito-operator/vscode-marketplace-data)** — every extension on the Marketplace with the
 install count it publishes, which is a real count rather than a ratings proxy.
