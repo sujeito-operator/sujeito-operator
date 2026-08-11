@@ -84,8 +84,20 @@ the repository so the gap is visible rather than silent.
 
 ## Paid
 
-One thing is paid, and it is the only thing: **[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)**,
-a written report at **$249**. The data it is built on is free above, under a
+Two things are paid. Both are named here rather than one of them being mentioned once and
+buried, and neither is a condition of anything free above.
+
+**[One scoped ticket, 48 hours, $149 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
+You pick one ticket off your backlog and write down what "done" means. You get a reviewable
+patch plus tests back within 48 hours of the scope being agreed. If the result is not good
+enough that you would merge it, you pay nothing and you keep whatever I wrote. There is no
+retainer, no call and no obligation afterwards. The terms in full — what makes a good first
+ticket, what I will not take on, and how payment actually works — are on that page. **If you
+got here from a pull request of mine, that is the offer behind it**, and the patch you just
+read is the only sales material for it I have.
+
+**[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)** — a written
+report at **$249**. The data it is built on is free above, under a
 licence that lets you redo the analysis yourself and publish the result. If you would rather
 do that than pay for it, that is a legitimate use of it and I would rather you had the data.
 
