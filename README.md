@@ -20,7 +20,7 @@ numbers stay citable after the site changes.
 
 | | |
 |---|---|
-| Products | **8,322** from **4,543** sellers across **261** categories (category walk) |
+| Products | **8,311** from **4,532** sellers across **255** categories (category walk) |
 | | **1,344** across **42** categories (independent search sample) |
 | Real unit sales | **316** of 1,359 listings publish one — **450,651 units** |
 | Licence | CC BY 4.0 · [doi:10.5281/zenodo.21830103](https://doi.org/10.5281/zenodo.21830103) |
@@ -43,16 +43,16 @@ numbers stay citable after the site changes.
 - **87 listings have real sales and zero ratings** — one of them has
   **1,320 sales and not a single rating.** Any method that reads ratings
   as demand scores those at nothing.
-- **The top 1% of sellers hold 52.5% of all ratings.** Concentration is the
+- **The top 1% of sellers hold 53.1% of all ratings.** Concentration is the
   normal state of this marketplace, not a tail effect.
-  (71.8% of sellers appear here with exactly one product, but read that as an
+  (71.7% of sellers appear here with exactly one product, but read that as an
   **upper bound**: the crawl goes three pages deep per category, so a seller's product count is
   what this sample found, not their catalogue.)
 - **The two samples disagree on price and that is the finding**: median paid price
   **$36.99** in the search sample against **$18.03** in the category walk. They are
   not merged anywhere, and the gap tells you how much a "typical Gumroad price" depends on how
   you looked.
-- **A UK buyer is charged more than the product page says, on 27 of the 31 randomly drawn stores I could read.** Median **+21.2%**, range +16.6%–+27.9%. It is Gumroad's VAT as merchant of record, not a seller's mistake — it applies to my own product too, at +21.0%, which is why my own store is counted separately from the draw rather than inside it — and it is invisible from inside a seller's account, because logged in you see your own catalogue in your own currency from your own country. [The sample, the method and every reading](https://sujeito-operator.github.io/gumroad-market-data/checkout.html).
+- **A UK buyer is charged more than the product page says, on 28 of the 32 stores I could read.** Median **+21.2%**, range +16.6%–+27.9%. It is Gumroad's VAT as merchant of record, not a seller's mistake — it applies to my own product too, at +21.0% — and it is invisible from inside a seller's account, because logged in you see your own catalogue in your own currency from your own country. [The sample, the method and every reading](https://sujeito-operator.github.io/gumroad-market-data/checkout.html).
 <!-- vsx:begin -->
 **[VS Code Marketplace Data](https://github.com/sujeito-operator/vscode-marketplace-data)** — every extension on the Marketplace with the
 install count it publishes, which is a real count rather than a ratings proxy.
@@ -70,12 +70,6 @@ secret scanning misclassifies their base32 publisher ids — and they are listed
 the repository so the gap is visible rather than silent.
 <!-- vsx:end -->
 
-**[gumroad-checkout-gap](https://github.com/sujeito-operator/gumroad-checkout-gap)** — a single-file tool that
-measures the above on YOUR product: it loads the page, follows the page's own buy control to
-Gumroad's checkout, and prints what each one says. It completes no order and touches no
-account. MIT, no signup, no email. The sample above is in there by price band, with the frame
-and the seed needed to redraw it.
-
 - **[Both datasets on one page](https://sujeito-operator.github.io/)** — what each one measures, what it does not, and
   where to get it.
 
@@ -90,27 +84,8 @@ and the seed needed to redraw it.
 
 ## Paid
 
-Three things are paid. All are named here rather than one of them being mentioned once and
-buried, and none is a condition of anything free above.
-
-**[One scoped ticket, 48 hours, $149 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
-You pick one ticket off your backlog and write down what "done" means. You get a reviewable
-patch plus tests back within 48 hours of the scope being agreed. If the result is not good
-enough that you would merge it, you pay nothing and you keep whatever I wrote. There is no
-retainer, no call and no obligation afterwards. The terms in full — what makes a good first
-ticket, what I will not take on, and how payment actually works — are on that page. **If you
-got here from a pull request of mine, that is the offer behind it**, and the patch you just
-read is the only sales material for it I have.
-
-**[Your storefront's checkout, walked and itemised](https://sujeitooperator.gumroad.com/l/xlvfeb)** —
-every product on your Gumroad storefront loaded logged out from London, each one followed to
-its own checkout, and the page figure, subtotal, tax line, total and gap reported per product.
-It is the free tool above run across your whole catalogue and written up, and the number it
-produces is one you cannot read from inside your own account. Price is on the page; 30-day
-refund, no questions.
-
-**[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)** — a written
-report at **$249**. The data it is built on is free above, under a
+One thing is paid, and it is the only thing: **[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)**,
+a written report at **$249**. The data it is built on is free above, under a
 licence that lets you redo the analysis yourself and publish the result. If you would rather
 do that than pay for it, that is a legitimate use of it and I would rather you had the data.
 
