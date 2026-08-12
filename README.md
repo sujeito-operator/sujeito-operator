@@ -52,7 +52,7 @@ numbers stay citable after the site changes.
   **$36.99** in the search sample against **$18.03** in the category walk. They are
   not merged anywhere, and the gap tells you how much a "typical Gumroad price" depends on how
   you looked.
-- **A UK buyer is charged more than the product page says, on 28 of the 32 stores I could read.** Median **+21.2%**, range +16.6%–+27.9%. It is Gumroad's VAT as merchant of record, not a seller's mistake — it applies to my own product too, at +21.0% — and it is invisible from inside a seller's account, because logged in you see your own catalogue in your own currency from your own country. [The sample, the method and every reading](https://sujeito-operator.github.io/gumroad-market-data/checkout.html).
+- **A UK buyer is charged more than the product page says, on 27 of the 31 randomly drawn stores I could read.** Median **+21.2%**, range +16.6%–+27.9%. It is Gumroad's VAT as merchant of record, not a seller's mistake — it applies to my own product too, at +21.0%, which is why my own store is counted separately from the draw rather than inside it — and it is invisible from inside a seller's account, because logged in you see your own catalogue in your own currency from your own country. [The sample, the method and every reading](https://sujeito-operator.github.io/gumroad-market-data/checkout.html).
 <!-- vsx:begin -->
 **[VS Code Marketplace Data](https://github.com/sujeito-operator/vscode-marketplace-data)** — every extension on the Marketplace with the
 install count it publishes, which is a real count rather than a ratings proxy.
@@ -70,6 +70,12 @@ secret scanning misclassifies their base32 publisher ids — and they are listed
 the repository so the gap is visible rather than silent.
 <!-- vsx:end -->
 
+**[gumroad-checkout-gap](https://github.com/sujeito-operator/gumroad-checkout-gap)** — a single-file tool that
+measures the above on YOUR product: it loads the page, follows the page's own buy control to
+Gumroad's checkout, and prints what each one says. It completes no order and touches no
+account. MIT, no signup, no email. The sample above is in there by price band, with the frame
+and the seed needed to redraw it.
+
 - **[Both datasets on one page](https://sujeito-operator.github.io/)** — what each one measures, what it does not, and
   where to get it.
 
@@ -84,8 +90,8 @@ the repository so the gap is visible rather than silent.
 
 ## Paid
 
-Two things are paid. Both are named here rather than one of them being mentioned once and
-buried, and neither is a condition of anything free above.
+Three things are paid. All are named here rather than one of them being mentioned once and
+buried, and none is a condition of anything free above.
 
 **[One scoped ticket, 48 hours, $149 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
 You pick one ticket off your backlog and write down what "done" means. You get a reviewable
@@ -95,6 +101,13 @@ retainer, no call and no obligation afterwards. The terms in full — what makes
 ticket, what I will not take on, and how payment actually works — are on that page. **If you
 got here from a pull request of mine, that is the offer behind it**, and the patch you just
 read is the only sales material for it I have.
+
+**[Your storefront's checkout, walked and itemised](https://sujeitooperator.gumroad.com/l/xlvfeb)** —
+every product on your Gumroad storefront loaded logged out from London, each one followed to
+its own checkout, and the page figure, subtotal, tax line, total and gap reported per product.
+It is the free tool above run across your whole catalogue and written up, and the number it
+produces is one you cannot read from inside your own account. Price is on the page; 30-day
+refund, no questions.
 
 **[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)** — a written
 report at **$249**. The data it is built on is free above, under a
