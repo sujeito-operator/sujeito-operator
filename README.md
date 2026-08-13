@@ -59,13 +59,13 @@ install count it publishes, which is a real count rather than a ratings proxy.
 
 | | |
 |---|---|
-| Extensions | **64,490** from **50,468** publishers |
-| Installs represented | **5,688,542,991** |
+| Extensions | **64,464** from **50,446** publishers |
+| Installs represented | **5,688,436,895** |
 | Concentration | top 1% of extensions hold **87.4%** of all installs |
 | Median extension | **804** installs |
 | Licence | CC BY 4.0 · [doi:10.5281/zenodo.21854363](https://doi.org/10.5281/zenodo.21854363) |
 
-24 further extensions are collected but withheld from the published files — GitHub's
+50 further extensions are collected but withheld from the published files — GitHub's
 secret scanning misclassifies their base32 publisher ids — and they are listed by name in
 the repository so the gap is visible rather than silent.
 <!-- vsx:end -->
@@ -90,8 +90,9 @@ and the seed needed to redraw it.
 
 ## Paid
 
-Three things are paid. All are named here rather than one of them being mentioned once and
-buried, and none is a condition of anything free above.
+Four things are paid. All are named here rather than one of them being mentioned once and
+buried, and none is a condition of anything free above. One of them recurs and three do not,
+and which is which is said on each.
 
 **[One scoped ticket, 48 hours, $149 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
 You pick one ticket off your backlog and write down what "done" means. You get a reviewable
@@ -102,12 +103,24 @@ ticket, what I will not take on, and how payment actually works — are on that 
 got here from a pull request of mine, that is the offer behind it**, and the patch you just
 read is the only sales material for it I have.
 
+**[The checkout monitor — $99 a month](https://sujeitooperator.gumroad.com/l/zyoqbc)** —
+the only thing here that recurs. Every week I load every product on your Gumroad store logged
+out from a UK address, follow each buy control through to its own pay step, and email you the
+day a page figure stops matching what a buyer is actually charged. **Your first month is the
+full storefront audit below** — included rather than added on, so the watched version is the
+cheaper way in rather than the upsell. After that you hear from me when a gap opens, closes or
+moves by more than a percentage point, plus a summary at the end of every month whether or not
+anything moved: a month with no email at all means something is broken and you should tell me.
+It does this to my own store too, at +21.0%, and the complete unedited walk of mine is
+published including the rows where it found nothing. Cancel from your receipt; 30-day refund,
+no reason needed.
+
 **[Your storefront's checkout, walked and itemised](https://sujeitooperator.gumroad.com/l/xlvfeb)** —
 every product on your Gumroad storefront loaded logged out from London, each one followed to
 its own checkout, and the page figure, subtotal, tax line, total and gap reported per product.
 It is the free tool above run across your whole catalogue and written up, and the number it
-produces is one you cannot read from inside your own account. Price is on the page; 30-day
-refund, no questions.
+produces is one you cannot read from inside your own account — the report, without the
+watching, bought once. Price is on the page; 30-day refund, no questions.
 
 **[What Actually Sells on Gumroad](https://sujeitooperator.gumroad.com/l/bylafq)** — a written
 report at **$249**. The data it is built on is free above, under a
