@@ -94,7 +94,7 @@ Four things are paid. All are named here rather than one of them being mentioned
 buried, and none is a condition of anything free above. One of them recurs and three do not,
 and which is which is said on each.
 
-**[One scoped ticket, 48 hours, $149 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
+**[One scoped ticket, 48 hours, $299 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
 You pick one ticket off your backlog and write down what "done" means. You get a reviewable
 patch plus tests back within 48 hours of the scope being agreed. If the result is not good
 enough that you would merge it, you pay nothing and you keep whatever I wrote. There is no
