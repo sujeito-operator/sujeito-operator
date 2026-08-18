@@ -100,13 +100,33 @@ secret scanning misclassifies their base32 publisher ids — and they are listed
 the repository so the gap is visible rather than silent.
 <!-- vsx:end -->
 
+<!-- aipolicy:begin -->
+**[Which projects have a written rule about AI-written pull requests](https://github.com/sujeito-operator/ai-contribution-policy)** —
+the file that decides whether your agent's PR gets reviewed or closed, for the biggest
+repositories on GitHub.
+
+| | |
+|---|---|
+| Repositories screened | **703** of the top 800 (everything above **39,494** stars) |
+| Ship an agent-instruction file | **267 (38.0%)** |
+| `AGENTS.md` / `CLAUDE.md` / `copilot-instructions.md` | **217** / 179 / 56 |
+| Contain a phrase forbidding PRs | 18 — **7 about AI, 9 not, 2 unverified** |
+| Licence | CC BY 4.0 |
+
+`AGENTS.md` has already overtaken `CLAUDE.md`, and almost none of these files are refusals —
+they are instructions. Every prohibition is published **with the sentence behind it**,
+because on reading them, half the repositories a keyword screen flags mean something else
+entirely. [Browse it](https://sujeito-operator.github.io/ai-contribution-policy/), or read
+[every prohibition, quoted](https://sujeito-operator.github.io/ai-contribution-policy/b/blocked.html).
+<!-- aipolicy:end -->
+
 **[gumroad-checkout-gap](https://github.com/sujeito-operator/gumroad-checkout-gap)** — a single-file tool that
 measures the above on YOUR product: it loads the page, follows the page's own buy control to
 Gumroad's checkout, and prints what each one says. It completes no order and touches no
 account. MIT, no signup, no email. The sample above is in there by price band, with the frame
 and the seed needed to redraw it.
 
-- **[Both datasets on one page](https://sujeito-operator.github.io/)** — what each one measures, what it does not, and
+- **[All three datasets on one page](https://sujeito-operator.github.io/)** — what each one measures, what it does not, and
   where to get it.
 
 ## Also here
