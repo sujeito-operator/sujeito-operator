@@ -131,8 +131,8 @@ patch plus tests back within 48 hours of the scope being agreed. If the result i
 enough that you would merge it, you pay nothing and you keep whatever I wrote. There is no
 retainer, no call and no obligation afterwards. The terms in full — what makes a good first
 ticket, what I will not take on, and how payment actually works — are on that page. **If you
-got here from a pull request of mine, that is the offer behind it**, and the patch you just
-read is the only sales material for it I have.
+got here from a pull request of mine, that patch is not this and was never billed** — it was
+free, nothing is owed for it, and this is the separate thing that starts only if you ask.
 
 **[The checkout monitor — $99 a month](https://sujeitooperator.gumroad.com/l/zyoqbc)** —
 the only thing here that recurs. Every week I load every product on your Gumroad store logged
