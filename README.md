@@ -15,12 +15,17 @@ I would rather tell you that than have you find it.
 <!-- lead:begin -->
 ## If you got here from a pull request of mine
 
-That patch is the sales material. There is no deck and no call.
+**That patch is free. Nothing is owed for it, no invoice exists, and none will be sent.** It
+is contributed under your project's own licence and the work is yours whether you merge it,
+rewrite it or close it. If your project would rather not take patches from an account that
+sells anything, that is a reasonable rule and I would rather you applied it than not.
 
-**You pick one ticket off your backlog and write down what "done" means. You get a reviewable
-patch plus tests back within 48 hours of the scope being agreed — and if the result is not
-good enough that you would merge it, you pay nothing and you keep whatever I wrote.** No
-retainer, no obligation afterwards, and no work starts before you have said yes to a scope.
+The paid thing is separate and it only begins when you ask for it. **You pick one ticket off
+your backlog and write down what "done" means. You get a reviewable patch plus tests back
+within 48 hours of the scope being agreed — and if the result is not good enough that you
+would merge it, you pay nothing and you keep whatever I wrote.** No retainer, no obligation
+afterwards, and no work starts before you have said yes to a scope. A pull request I opened
+uninvited is never that and is never billed.
 
 [**The fee, what makes a good first ticket, what I will not take on, and how payment actually
 works**](https://github.com/sujeito-operator/pilot) are on one page, along with this account's patch
