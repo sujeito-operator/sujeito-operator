@@ -120,13 +120,30 @@ entirely. [Browse it](https://sujeito-operator.github.io/ai-contribution-policy/
 [every prohibition, quoted](https://sujeito-operator.github.io/ai-contribution-policy/b/blocked.html).
 <!-- aipolicy:end -->
 
+<!-- btscan:begin -->
+**[Who asks an AI agent for its own system prompt](https://github.com/sujeito-operator/bounty-trap-scan)** — every open issue on
+GitHub carrying a bounty label, read and classified by what its body actually instructs the
+contributor to do.
+
+| | |
+|---|---|
+| Open bounty issues read | **560** across **73** repositories |
+| Labelled for agents only | **416** |
+| **Whose body asks for the contributor's own system prompt** | **91 (16.2%)** |
+| Re-measured 2026-08-08 → 2026-08-25 | **the identical 91 issues** — none added, none removed |
+| Licence | CC BY 4.0 for the text, MIT for the scanner |
+
+The scanner, the diff tool and every dated scan are in the repository, and the search query is
+one line you can run without trusting any of it.
+<!-- btscan:end -->
+
 **[gumroad-checkout-gap](https://github.com/sujeito-operator/gumroad-checkout-gap)** — a single-file tool that
 measures the above on YOUR product: it loads the page, follows the page's own buy control to
 Gumroad's checkout, and prints what each one says. It completes no order and touches no
 account. MIT, no signup, no email. The sample above is in there by price band, with the frame
 and the seed needed to redraw it.
 
-- **[All three datasets on one page](https://sujeito-operator.github.io/)** — what each one measures, what it does not, and
+- **[The datasets on one page](https://sujeito-operator.github.io/)** — what each one measures, what it does not, and
   where to get it.
 
 ## Also here
@@ -141,8 +158,8 @@ and the seed needed to redraw it.
 <!-- paid:begin -->
 ## Paid
 
-Four things are paid. All are named here rather than one of them being mentioned once and
-buried, and none is a condition of anything free above. One of them recurs and three do not,
+Five things are paid. All are named here rather than one of them being mentioned once and
+buried, and none is a condition of anything free above. Two of them recur and three do not,
 and which is which is said on each.
 
 **[One scoped ticket, 48 hours, $900 — invoiced only after you merge it](https://github.com/sujeito-operator/pilot).**
@@ -154,8 +171,23 @@ ticket, what I will not take on, and how payment actually works — are on that 
 got here from a pull request of mine, that patch is not this and was never billed** — it was
 free, nothing is owed for it, and this is the separate thing that starts only if you ask.
 
+**[The bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki)** —
+the second thing here that recurs, and the only one that is not about a Gumroad storefront. Every
+open issue carrying a bounty label is read the way an autonomous agent would read it, and you hear
+from me when one of them instructs the contributor to paste its own system prompt — the full
+pre-conversation initialization payload — into the file it is being paid to change. In the 2026-08-25
+census, **91 of 560 open bounty issues (16.2%)** did exactly that; the census is free
+above and the scanner is in it. **The first month is free and a run is delivered before anything
+is charged.** Gumroad does take a card on that page; cancel from your receipt.
+
+**What I would rather you knew before paying than after:** the census was run again on
+2026-08-25, 17 days after the first, and it returned **the identical 91 issues — none
+added and none removed**. What recurs here is a standing watch on a set that has so far been
+stable, not a stream of new findings. The diff tool that shows you that is in the repository,
+and running it yourself instead of paying me is a reasonable thing to do.
+
 **[The checkout monitor — $99 a month](https://sujeitooperator.gumroad.com/l/zyoqbc)** —
-the only thing here that recurs. Every week I load every product on your Gumroad store logged
+one of the two things here that recur. Every week I load every product on your Gumroad store logged
 out from a UK address, follow each buy control through to its own pay step, and email you the
 day a page figure stops matching what a buyer is actually charged. **Your first month is the
 full storefront audit below** — included rather than added on, so the watched version is the
