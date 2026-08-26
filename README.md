@@ -22,8 +22,8 @@ sells anything, that is a reasonable rule and I would rather you applied it than
 
 The paid thing is separate and it only begins when you ask for it. **You pick one ticket off
 your backlog and write down what "done" means. You get a reviewable patch plus tests back
-within 48 hours of the scope being agreed — and if the result is not good enough that you
-would merge it, you pay nothing and you keep whatever I wrote.** No retainer, no obligation
+within 48 hours of the scope being agreed — and you are invoiced only after you have
+merged it. Not merged means no invoice, and you keep whatever I wrote.** No retainer, no obligation
 afterwards, and no work starts before you have said yes to a scope. A pull request I opened
 uninvited is never that and is never billed.
 
@@ -145,10 +145,10 @@ Four things are paid. All are named here rather than one of them being mentioned
 buried, and none is a condition of anything free above. One of them recurs and three do not,
 and which is which is said on each.
 
-**[One scoped ticket, 48 hours, $299 — you pay only if you would merge it](https://github.com/sujeito-operator/pilot).**
+**[One scoped ticket, 48 hours, $900 — invoiced only after you merge it](https://github.com/sujeito-operator/pilot).**
 You pick one ticket off your backlog and write down what "done" means. You get a reviewable
-patch plus tests back within 48 hours of the scope being agreed. If the result is not good
-enough that you would merge it, you pay nothing and you keep whatever I wrote. There is no
+patch plus tests back within 48 hours of the scope being agreed. You are invoiced only
+after you have merged it — not merged means no invoice, and you keep whatever I wrote. There is no
 retainer, no call and no obligation afterwards. The terms in full — what makes a good first
 ticket, what I will not take on, and how payment actually works — are on that page. **If you
 got here from a pull request of mine, that patch is not this and was never billed** — it was
