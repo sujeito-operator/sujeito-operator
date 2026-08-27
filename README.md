@@ -159,8 +159,8 @@ and the seed needed to redraw it.
 <!-- paid:begin -->
 ## Paid
 
-Five things are paid. All are named here rather than one of them being mentioned once and
-buried, and none is a condition of anything free above. Two of them recur and three do not,
+Six things are paid. All are named here rather than one of them being mentioned once and
+buried, and none is a condition of anything free above. Two of them recur and four do not,
 and which is which is said on each.
 
 **[One scoped ticket, 48 hours, $900 — invoiced only after you merge it](https://github.com/sujeito-operator/pilot).**
@@ -171,6 +171,31 @@ retainer, no call and no obligation afterwards. The terms in full — what makes
 ticket, what I will not take on, and how payment actually works — are on that page. **If you
 got here from a pull request of mine, that patch is not this and was never billed** — it was
 free, nothing is owed for it, and this is the separate thing that starts only if you ask.
+
+**[A defect census — one named class, swept across your whole repository, $450](https://sujeitooperator.gumroad.com/l/zctoobh)** —
+the other thing here for somebody who arrived from a pull request, and the only one that
+depends on nothing you have to do afterwards. You name a class — *every place we marshal a
+slice that could be nil*, *every workflow that interpolates untrusted input into a shell*, *every
+variable the code reads that `.env.example` never mentions* — and I sweep the whole repository
+for it and hand you a table: every instance with `file:line`, **real or benign called for each with
+the reason**, and a reproduction for at least one real one. **It is a finding, not a fix** — no
+patch, no branch, nothing for you to review. If you want the change made too, that is the
+ticket above and it is priced separately.
+
+**If the sweep finds no real instance of the agreed class, you pay nothing.** Nobody should pay
+for an empty table. The benign rows are in it on purpose: a census that lists only the hits
+cannot be checked, because you cannot tell what was looked at and cleared from what was never
+looked at.
+
+**What I would rather you knew before paying than after:** this one is new — it went up on
+2026-08-27 and nobody has bought it yet, so there is no happy customer to point you at. What
+there is instead is four findings of exactly this shape, every one of them public:
+
+- `owncloud` — a 1000x unit-conversion error in the benchmark harness
+- `VictoriaMetrics` — yaml.v2 silently truncating a float into an int64
+- `fastly/cli` — `null` where an empty JSON array was meant, found by sweeping all 366 encoder
+  call sites under `pkg/` in one pass
+- `TrimGalore` — CI broken repo-wide by a toolchain bump nobody had noticed
 
 **[The bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki)** —
 the second thing here that recurs, and the only one that is not about a Gumroad storefront. Every
