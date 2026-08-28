@@ -189,13 +189,15 @@ looked at.
 
 **What I would rather you knew before paying than after:** this one is new — it went up on
 2026-08-27 and nobody has bought it yet, so there is no happy customer to point you at. What
-there is instead is four findings of exactly this shape, every one of them public:
+there is instead is five findings of exactly this shape, every one of them public:
 
 - `owncloud` — a 1000x unit-conversion error in the benchmark harness
 - `VictoriaMetrics` — yaml.v2 silently truncating a float into an int64
 - `fastly/cli` — `null` where an empty JSON array was meant, found by sweeping all 366 encoder
   call sites under `pkg/` in one pass
 - `TrimGalore` — CI broken repo-wide by a toolchain bump nobody had noticed
+- `container images` — build artefacts a later `rm -rf` removes from the filesystem but NOT
+  from the pull — found by sweeping 75 published images off the registries they are served from
 
 **[The bounty board, watched for issues aimed at your coding agent — $750 a month](https://sujeitooperator.gumroad.com/l/bbpbki)** —
 the second thing here that recurs, and the only one that is not about a Gumroad storefront. Every
