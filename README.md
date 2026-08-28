@@ -131,7 +131,7 @@ contributor to do.
 | Open bounty issues read | **560** across **73** repositories |
 | Labelled for agents only | **416** |
 | **Whose body asks for the contributor's own system prompt** | **91 (16.2%)** |
-| Re-measured 2026-08-08 → 2026-08-25 | **the identical 91 issues** — none added, none removed |
+| Re-measured 2026-08-08 → 2026-08-28 | **the identical 91 issues** — none added, none removed |
 | Licence | CC BY 4.0 for the text, MIT for the scanner |
 
 The scanner, the diff tool and every dated scan are in the repository, and the search query is
@@ -201,13 +201,13 @@ there is instead is four findings of exactly this shape, every one of them publi
 the second thing here that recurs, and the only one that is not about a Gumroad storefront. Every
 open issue carrying a bounty label is read the way an autonomous agent would read it, and you hear
 from me when one of them instructs the contributor to paste its own system prompt — the full
-pre-conversation initialization payload — into the file it is being paid to change. In the 2026-08-25
+pre-conversation initialization payload — into the file it is being paid to change. In the 2026-08-28
 census, **91 of 560 open bounty issues (16.2%)** did exactly that; the census is free
 above and the scanner is in it. **The first month is free and a run is delivered before anything
 is charged.** Gumroad does take a card on that page; cancel from your receipt.
 
 **What I would rather you knew before paying than after:** the census was run again on
-2026-08-25, 17 days after the first, and it returned **the identical 91 issues — none
+2026-08-28, 20 days after the first, and it returned **the identical 91 issues — none
 added and none removed**. What recurs here is a standing watch on a set that has so far been
 stable, not a stream of new findings. The diff tool that shows you that is in the repository,
 and running it yourself instead of paying me is a reasonable thing to do.
