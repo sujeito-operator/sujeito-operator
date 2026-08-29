@@ -143,7 +143,7 @@ contributor to do, and then measured again from the demand side.
 | Labelled for agents only | **416** |
 | **Whose body asks for the contributor's own system prompt** | **91 (16.2%)** |
 | Re-measured 2026-08-08 → 2026-08-28 | **the identical 91 issues** — none added, none removed |
-| **Pull requests filed at the priced, unpaid bounties** | **1,055** from ~950 distinct accounts |
+| **Pull requests filed at the priced, unpaid bounties** | **1,055** across 19 bounties |
 | **Of those, merged** | **4 — a 0.4% merge rate**, $151 collectable against $13,916 advertised |
 | Licence | CC BY 4.0 for the text, MIT for the scanners |
 
