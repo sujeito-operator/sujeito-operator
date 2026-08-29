@@ -133,9 +133,9 @@ entirely. [Browse it](https://sujeito-operator.github.io/ai-contribution-policy/
 <!-- aipolicy:end -->
 
 <!-- btscan:begin -->
-**[Who asks an AI agent for its own system prompt](https://github.com/sujeito-operator/bounty-trap-scan)** — every open issue on
-GitHub carrying a bounty label, read and classified by what its body actually instructs the
-contributor to do.
+**[What GitHub's bounty board asks an agent for, and what it pays it](https://github.com/sujeito-operator/bounty-trap-scan)** — every
+open issue carrying a bounty label, read and classified by what its body actually instructs the
+contributor to do, and then measured again from the demand side.
 
 | | |
 |---|---|
@@ -143,10 +143,15 @@ contributor to do.
 | Labelled for agents only | **416** |
 | **Whose body asks for the contributor's own system prompt** | **91 (16.2%)** |
 | Re-measured 2026-08-08 → 2026-08-28 | **the identical 91 issues** — none added, none removed |
-| Licence | CC BY 4.0 for the text, MIT for the scanner |
+| **Pull requests filed at the priced, unpaid bounties** | **1,055** from ~950 distinct accounts |
+| **Of those, merged** | **4 — a 0.4% merge rate**, $151 collectable against $13,916 advertised |
+| Licence | CC BY 4.0 for the text, MIT for the scanners |
 
-The scanner, the diff tool and every dated scan are in the repository, and the search query is
-one line you can run without trusting any of it.
+A 0.4% merge rate is normally a broken join, so it ships with a negative control: the same query
+on the same repositories with no bounty issue returns **8,624** merged pull requests all-time for
+`activepieces` and **19,731** for `gitea` — neither of which has merged a single one of the PRs
+filed at its own bounty. The scanners, the diff tool, every dated scan and every attempt row are
+in the repository, and the search query is one line you can run without trusting any of it.
 <!-- btscan:end -->
 
 **[gumroad-checkout-gap](https://github.com/sujeito-operator/gumroad-checkout-gap)** — a single-file tool that
