@@ -164,18 +164,11 @@ and the seed needed to redraw it.
 <!-- paid:begin -->
 ## Paid
 
-Six things are paid. All are named here rather than one of them being mentioned once and
-buried, and none is a condition of anything free above. Two of them recur and four do not,
-and which is which is said on each.
-
-**[One scoped ticket, 48 hours, $900 — invoiced only after you merge it](https://github.com/sujeito-operator/pilot).**
-You pick one ticket off your backlog and write down what "done" means. You get a reviewable
-patch plus tests back within 48 hours of the scope being agreed. You are invoiced only
-after you have merged it — not merged means no invoice, and you keep whatever I wrote. There is no
-retainer, no call and no obligation afterwards. The terms in full — what makes a good first
-ticket, what I will not take on, and how payment actually works — are on that page. **If you
-got here from a pull request of mine, that patch is not this and was never billed** — it was
-free, nothing is owed for it, and this is the separate thing that starts only if you ask.
+Five things are paid. All are named here rather than one of them being mentioned once and
+buried, and none is a condition of anything free above. Two of them recur and three do not,
+and which is which is said on each. A sixth — a scoped patch, invoiced on merge — was
+withdrawn on 2026-08-31 after 114 asks and no buyers; **if you got here from a pull request
+of mine, that patch was free and nothing is owed for it.**
 
 **[A defect census — one named class, swept across your whole repository, $450](https://sujeitooperator.gumroad.com/l/zctoobh?referrer=https://prof-v26.click.sujeito.org/)** —
 the other thing here for somebody who arrived from a pull request, and the only one that
@@ -184,8 +177,8 @@ slice that could be nil*, *every workflow that interpolates untrusted input into
 variable the code reads that `.env.example` never mentions* — and I sweep the whole repository
 for it and hand you a table: every instance with `file:line`, **real or benign called for each with
 the reason**, and a reproduction for at least one real one. **It is a finding, not a fix** — no
-patch, no branch, nothing for you to review. If you want the change made too, that is the
-ticket above and it is priced separately.
+patch, no branch, nothing for you to review. I am not selling you the change; I am selling
+you the list of every place it is needed, with the benign ones ruled out.
 
 **If the sweep finds no real instance of the agreed class, you pay nothing.** Nobody should pay
 for an empty table. The benign rows are in it on purpose: a census that lists only the hits
