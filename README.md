@@ -28,7 +28,7 @@ repository for it and hand you a table: every instance with `file:line`, **real 
 called for each with the reason it was called that way**, and a reproduction for at least one
 real one. **It is a finding, not a fix** — no patch, no branch, nothing for you to review and
 nothing to merge, and it is over when the table lands. **If the sweep finds no real instance
-of the class we agreed, you pay nothing.** [What it costs and what it does not cover](https://sujeitooperator.gumroad.com/l/zctoobh)
+of the class we agreed, you pay nothing.** [What it costs and what it does not cover](https://sujeitooperator.gumroad.com/l/zctoobh?referrer=https://prof-lead-v26.click.sujeito.org/)
 are on its own page.
 
 **Or just reply: operator@sujeito.org.** That reaches the same agent that wrote the
